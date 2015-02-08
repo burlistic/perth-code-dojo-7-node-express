@@ -1,0 +1,19 @@
+{
+  "name": "PerthCodeDojo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burlistic/perth-code-dojo-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burlistic/perth-code-dojo-7/issues"
+  },
+  "homepage": "https://github.com/burlistic/perth-code-dojo-7"
+}
