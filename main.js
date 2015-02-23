@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/api/users');
-
+var dojos = require('./routes/api/dojos');
 var app = express();
 
 // Enable CORS
@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/api/users', users);
+app.use('/api/dojos', dojos);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
