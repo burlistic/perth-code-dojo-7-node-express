@@ -14,4 +14,4 @@ On Windows, use this command:
 
 set DEBUG=myapp & node .\bin\www
 
-Then load http://localhost:3000/api.users
+Then load http://localhost:3000/api/users
